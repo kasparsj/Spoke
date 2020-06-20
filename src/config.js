@@ -36,6 +36,8 @@ import SpawnerNode from "./editor/nodes/SpawnerNode";
 import SpawnerNodeEditor from "./ui/properties/SpawnerNodeEditor";
 import TriggerVolumeNode from "./editor/nodes/TriggerVolumeNode";
 import TriggerVolumeNodeEditor from "./ui/properties/TriggerVolumeNodeEditor";
+import TriggerEventNode from "./editor/nodes/TriggerEventNode";
+import TriggerEventNodeEditor from "./ui/properties/TriggerEventNodeEditor";
 import LinkNode from "./editor/nodes/LinkNode";
 import LinkNodeEditor from "./ui/properties/LinkNodeEditor";
 import ParticleEmitterNode from "./editor/nodes/ParticleEmitterNode";
@@ -80,6 +82,7 @@ export function createEditor(api, settings) {
   editor.registerNode(AudioNode, AudioNodeEditor);
   editor.registerNode(SpawnerNode, SpawnerNodeEditor);
   editor.registerNode(TriggerVolumeNode, TriggerVolumeNodeEditor);
+  editor.registerNode(TriggerEventNode, TriggerEventNodeEditor);
   editor.registerNode(LinkNode, LinkNodeEditor);
   editor.registerNode(ParticleEmitterNode, ParticleEmitterNodeEditor);
   editor.registerNode(KitPieceNode, KitPieceNodeEditor);

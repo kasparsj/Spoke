@@ -1,7 +1,7 @@
 import React from "react";
 
 export const defaultSettings = {
-  enableExperimentalFeatures: false
+  enableExperimentalFeatures: true
 };
 
 const SettingsContext = React.createContext({
